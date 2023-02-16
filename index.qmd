@@ -1,0 +1,20 @@
+---
+title: "first-repo-proj"
+format:
+  html:
+    self-contained: true
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+
+head(storms)
+```
+
+```{r}
+ggplot(storms) +
+  geom_bar(aes(x = status)) +
+  theme_bw()
+
+```
